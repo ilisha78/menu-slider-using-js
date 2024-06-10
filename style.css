@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(https://images.moneycontrol.com/static-mcnews/2024/05/20240506115623_Office-interior-space-trends.jpg?impolicy=website&width=1600&height=900);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    /* width: 100%; */
+}
+#open{
+    width: 100px;
+    height: 100px;
+}
+#open:hover, #close:hover{
+    background-color: rgba(255, 255, 255, 0.234);
+    border-radius: 20px;
+}
+#close{
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-self:flex-end;
+}
+.container{
+    width: 25%;
+    height: 702px;
+    background-color: rgba(12, 12, 12, 0.497);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 20px 20px 0px;
+    align-items: center;
+}
+h1{
+    font-size: 45px;
+    font-family: serif;
+    font-style: italic;
+}
+p{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    margin: 30px 0px;
+}
+.hide{
+    display: none;
+}
